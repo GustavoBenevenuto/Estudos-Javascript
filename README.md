@@ -1,0 +1,1 @@
+Pasta criada para fins didáticos, contendo aplicações em javascript 
