@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cadastros</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
+    <body>
+        <section class="container">
+            <h1>Formulário de cadastro</h1>
+            <ul>
+                <li>Nenhum campo pode estar vazio</li>
+                <li>Usuário só poderá conter letras e/ou números</li>
+                <li>Usuário deverá ter entre 3 á 12 caracteres</li>
+                <li>Senha precisa ter entre 6 a 12 caracteres</li>
+            </ul>
+            <form class="form">
+                <label for="nome">Nome: </label>
+                <input type="text" class="ipt-nome validar">
+
+                <label for="sobrenome">Sobrenome: </label>
+                <input type="text" class="ipt-sobrenome validar">
+
+                <label for="cpf">CPF: </label>
+                <input type="text" class="ipt-cpf validar">
+
+                <label for="usuario">Usuário: </label>
+                <input type="text" class="ipt-usuario validar">
+
+                <label for="senha">Senha: </label>
+                <input type="text" class="ipt-senha validar">
+
+                <label for="repetir-senha">Repetir senha: </label>
+                <input type="text" class="ipt-repetir-senha validar">
+                <button type="submit" class="btn-enviar">ENVIAR</button>
+            </form>
+            <div class="quadro-resposta">
+                
+            </div>
+        </section>
+        
+        <script src="./assets/js/validaCPF.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
