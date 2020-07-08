@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    max-width: 700px;
+    margin: 10px auto 0px auto;
+}
+
+.header header {
+    height: 500px;
+    background-image: url(./img/imagens/bg-3.jpg);
+    background-attachment: center;
+    background-size: cover;
+    background-position: right;
+}
+
+.header header ul{
+    float: right;
+    margin: 30px 0px;
+}
+
+.header header ul li {
+    display: inline;
+    padding: 10px;
+    margin: 0px 10px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+.header header ul li:hover{
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+.header header div {
+    position: absolute;
+    width: 698px;
+    margin: 250px auto 0px auto;
+}
+
+.header header div h1 {
+    width: 400px;
+    margin: 10px auto;
+    color: #FFF;
+    font-size: 60px;
+    text-align: center;
+}
+
+.header header div p{
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px auto;
+    width: 400px;
+    padding: 10px;
+    border-bottom: 2px solid #FFF;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+
+main{
+    background-color: rgb(226, 224, 224);
+}
+
+main .section-cards div{
+    width: 231px;
+    position: relative;
+    float: left;    
+    border: 1px solid yellow;
+}
+

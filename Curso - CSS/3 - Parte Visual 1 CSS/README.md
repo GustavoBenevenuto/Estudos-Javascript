@@ -110,4 +110,12 @@ ou
 *CSS*
 
 # -----------------------------------------------------
-# 
+#  Layout Semântico
+
+- <header>Cabeçalho</header>
+- <nav>Navegação Principal</nav>
+- <main>Conteúdo</main>
+- <footer>Rodapé</footer>
+- <section>Seção</section>
+- <article>Conteúdo Principal da Página</article>
+- <aside>Conteúdo á parte. Exemplo, propraganda</aside>
