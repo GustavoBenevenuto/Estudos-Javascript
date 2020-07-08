@@ -62,10 +62,30 @@ main{
     background-color: rgb(226, 224, 224);
 }
 
-main .section-cards div{
-    width: 231px;
-    position: relative;
-    float: left;    
-    border: 1px solid yellow;
+main .section-cards {
+    padding: 10px;
 }
 
+main .section-cards div{
+    width: 221px;
+    position: relative;
+    float: left;    
+    background-color: #FFF;
+    
+}
+
+main .section-cards img{
+    width: 200px;
+    margin: 10px;
+    margin-bottom: -15px;
+}
+
+main .section-cards p{
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: #FFF;
+    background-color:#464646;
+}
