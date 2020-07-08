@@ -1,0 +1,37 @@
+body {
+    background-color: #3D4490;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #CCC;
+    margin: 0;
+}
+
+header{
+    background-color: #172297;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+    font-style: normal;
+}
+
+p {
+    text-indent: 20px;
+    text-transform: uppercase;
+}
+
+a{
+    color: #FFF;
+}
+
+a:hover{
+    color: #CCC;
+}
+
+ul{
+    list-style-type: lower-roman;
+    list-style-position: initial;
+}

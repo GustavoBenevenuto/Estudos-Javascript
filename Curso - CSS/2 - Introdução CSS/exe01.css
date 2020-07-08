@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 800px;
+    margin: 0px auto;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: orange;
+    background:rgb(247, 113, 135);
+}
+
+h2{
+    color: red;
+    background-color: darksalmon;
+    border-bottom: 3px solid red;
+    padding: 10px;
+    font-size: 30px;
+}
+
+p a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 20px;
+}
